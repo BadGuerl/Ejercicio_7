@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 7</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="contenedor">
+
+        <div class="login-form">
+            <h2>Login form</h2>
+
+            <form action="">
+
+                <div class="login-form__field">
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        class="login-form__field--email"
+                        placeholder="Email"
+                        pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$"
+                        required
+                        />
+                </div>
+
+                <div class="login-form__field">
+                    <input
+                        type="password"
+                        name="password"
+                        id="password"
+                        class="login-form__field--password"
+                        placeholder="Password"
+                        pattern="[A-Za-z0-9!?-]{8,12}"
+                        required
+                        />
+                </div>
+
+                <div class="login-form__field">
+                    <input
+                        type="checkbox"
+                        name="check"
+                        id="check"
+                        class="login-form__field--checkbox"
+                        required
+                    />
+                    <label for="check">I accept terms and conditions</label>
+                </div>
+
+                <div class="login-form__button">
+                    <button type="submit" class="login-form___button--button">Send</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
